@@ -14,6 +14,7 @@ body{
 }
 
 .converter-container{
+     background: linear-gradient(135deg,#00feba,#201a46);
    /* width: 350px;*/
    /* background-color: rgb(238, 244, 247);*/
     border-radius: 8px;
@@ -21,6 +22,8 @@ body{
     padding: 40px,6px;
     text-align: center;
     border: none;
+    height: 800px;
+    width: 800px;
 
 }
 .converter-container h1{
