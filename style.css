@@ -72,6 +72,7 @@ body{
 .note{
      text-align: left;
      margin-bottom: 25px ;
+    padding :40px;
 }
 
 @media (max-width: 300px){
