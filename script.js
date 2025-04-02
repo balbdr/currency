@@ -9,6 +9,7 @@ const converterContainer =document.querySelector('.converter-container');
 const countries = [
    
    {code: "USD", name : "United States Dollar"},
+   {code:  "NPR", name: "Nepalese Rupee"},
   {code:   "AED", name: "United Arab Emirates Dirham"},
   {code:   "ARS", name: "Argentine Peso"},
   {code:  "AFN", name: "Afghan Afghani"},
@@ -92,25 +93,24 @@ const countries = [
    {code:  "NAD", name: "Namibian Dollar"},
    {code:  "NGN", name: "Nigerian Naira"},
    {code:  "NOK", name: "Norwegian Krone"},
-   {code:  "NPR", name: "Nepalese Rupee"},
-  {code:  "NIO", name: "Nicaragua Cordoba"},
+   {code:  "NIO", name: "Nicaragua Cordoba"},
   {code:  "KPW", name: "North Korean Won"},
    {code:  "NZD", name: "New Zealand Dollar"},
    {code:  "OMR", name: "Omani Rial"},
    {code:  "PEN", name: "Peruvian Sol"},
    {code:  "PHP", name: "Philippine Peso"},
    {code:  "PLN", name: "Polish Zloty"},
-    {code: "PKR", name: "Pakistani Rupee"},
+   {code: "PKR", name: "Pakistani Rupee"},
   {code:  "PGK", name: "Papua New Guinea Kina"},
   {code:  "PYG", name: "Paraguayan Guarani"},
   {code:  "QAR", name: "Qatari Riyal"},
-    {code: "RUB", name: "Russian Ruble"},
-    {code: "RWF", name: "Rwanda Franc"},
+   {code: "RUB", name: "Russian Ruble"},
+   {code: "RWF", name: "Rwanda Franc"},
    {code:  "RON", name: "Romanian Leu"},
    {code:  "RSD", name: "Serbian Dinar"},
    {code:  "SAR", name: "Saudi Riyal"},
   {code:  "SDG", name: "Sudanese Pound"},
-    {code: "SGD", name: "Singapore Dollar"},
+   {code: "SGD", name: "Singapore Dollar"},
    {code:  "SCR", name: "Seychellois Rupee"},
    {code:  "SEK", name: "Swedish Krona"},
    {code:  "SYP", name: "Syrian Pound"},
@@ -119,8 +119,8 @@ const countries = [
   {code:  "SLL", name: "Sierra Leone leone"},
   {code:  "SZL", name: "Swaziland Lilageni"},
   {code:  "SRD", name: "Surinamese Dollar"},
-    {code: "THB", name: "Thai Baht"},
-    {code: "TWD", name: "Taiwan Dollar"},
+ {code: "THB", name: "Thai Baht"},
+   {code: "TWD", name: "Taiwan Dollar"},
   {code: "TND", name: "Tunisian Dinar"},
     {code: "TJS", name: "Tajikistani somoni"},
     {code: "TMT", name: "Turkmenistan manat"},
@@ -153,8 +153,8 @@ countries.forEach(country => {
     fromCurrencyElement.appendChild(option1);
     toCurrencyElement.appendChild(option2);
 //setting defult value USD to INR
-fromCurrencyElement.value = 'USD';
-toCurrencyElement.value = 'NPR';   
+//fromCurrencyElement.value = 'USD';
+//toCurrencyElement.value = 'NPR';   
     
     
 });
