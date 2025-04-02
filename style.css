@@ -69,6 +69,9 @@ body{
 .converter-container .input-container input{
     width: 100px;
 }
+.note{
+     text-align: left;
+}
 
 @media (max-width: 300px){
     .converter-container{
