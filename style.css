@@ -70,9 +70,9 @@ body{
     width: 100px;
 }
 .note{
-     text-align: centre;
-     margin-bottom: 20px ;
-    padding :10px;
+     text-align: left;
+     margin-bottom: 100px ;
+    
 }
 
 @media (max-width: 300px){
