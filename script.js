@@ -153,8 +153,8 @@ countries.forEach(country => {
     fromCurrencyElement.appendChild(option1);
     toCurrencyElement.appendChild(option2);
 //setting defult value USD to INR
-//fromCurrencyElement.value = 'USD';
-//toCurrencyElement.value = 'NPR';   
+fromCurrencyElement.value = 'USD';
+toCurrencyElement.value = 'NPR';   
     
     
 });
