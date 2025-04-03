@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 700px;
     background-color: rgb(109, 169, 238);
 }
 
@@ -71,7 +71,7 @@ body{
 }
 .note{
      text-align: left;
-     margin-left: 100px ;
+     margin-left: 50px ;
     
 }
 
