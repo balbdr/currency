@@ -30,6 +30,9 @@ body{
     margin-bottom: 40px ;
 
 }
+.converter-container .logo{
+    margin-left: -250px
+}
 .converter-container input{
     
     border: 2px solid rgb(42, 74, 90);
