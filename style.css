@@ -32,11 +32,13 @@ body{
 }
 }
 .converter-container h5{
+     text-align: left;
     margin-left: -300px ;
 
 }
 .converter-container .logo{
-    margin-left: -300px
+  margin-left: -300px;
+    
 }
 .converter-container input{
     
