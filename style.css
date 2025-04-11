@@ -79,11 +79,12 @@ body{
 .converter-container .input-container input{
     width: 100px;
 }
-.note{
-     text-align: left;
-     margin-left: 50px ;
-     margin-right: 40px ;
+.result{
     
+    color: rgb(247, 243, 14);
+}
+.date{
+    color: #e7d320;
 }
 
 @media (max-width: 300px){
