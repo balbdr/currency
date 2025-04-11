@@ -4,6 +4,13 @@ const fromCurrencyElement =document.querySelector('.fromCurrency');
 const toCurrencyElement =document.querySelector('.toCurrency');
 const resultElement =document.querySelector('.result');
 const converterContainer =document.querySelector('.converter-container');
+const dateElement =document.querySelector('.date');
+const date = new Date();
+dateElement.textContent = date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+});
 
 
 const countries = [
