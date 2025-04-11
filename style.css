@@ -22,7 +22,7 @@ body{
     padding: 40px,6px;
     text-align: center;
     border: none;
-    min-height: 100vh;
+    height: 100vh;
     width: 450px;
 
 }
